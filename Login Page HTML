@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&family=Montserrat:wght@500&family=Nunito&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&family=Montserrat&family=Nunito&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="Login.css">
+    <title>LOGAN</title>
+</head>
+<body>
+<!-- created by Khushi-->
+    <section class="bg">
+        <section class="nav">
+            <div class="webName">
+                <p>LOGAN</p>
+            </div>
+            <div class="content">
+                <a class="home" href="">Home</a>
+                <a class="about" href="">About</a>
+                <button class="loginButton" id="button">Login</button>
+            </div>
+        </section>
+        <!-- created by Khushi-->
+        <section class="form">
+            <section class="formInput" id="formInput">
+                <section class="login">
+                    <div class="loginName">
+                        <p>User Login</p>
+                    </div>
+                    <div class="getuser">
+                        <label id="userLabel" for="user">Username</label><br>
+                        <input id="userInput" type="text" name="user" required>
+                    </div>
+                    <div class="getemail">
+                        <label id="emailLabel" for="email">Email</label><br>
+                        <input id="emailInput" type="email" name="email" required>
+                    </div>
+                    <div class="getpass">
+                        <label id="passLabel" for="password">Password</label><br>
+                        <input id="passInput" type="password" name="password" required>
+                    </div>
+                    <div class="registerLink">
+                        <p id="account">Don't have an account?</p>
+                        <a id="registerLinkA" href="">Register</a>
+                    </div>
+                    <div class="getlogin">
+                        <button class="loginSubmitButton" type="submit">Login</button>
+                    </div>
+                </section>
+                <!-- created by Khushi-->
+                <section class="register">
+                    <div class="registerName">
+                        <p>Registration</p>
+                    </div>
+                    <div class="Rgetemail">
+                        <label id="RemailLabel" for="email">Email</label><br>
+                        <input id="RemailInput" type="email" name="email" required>
+                    </div>
+                    <div class="Rgetpass">
+                        <label id="RpassLabel" for="password">Create Password</label><br>
+                        <input id="RpassInput" type="password" name="password" required>
+                    </div>
+                    <div class="Rgetpass">
+                        <label id="RpassLabel" for="password">Confirm Password</label><br>
+                        <input id="RpassInput" type="password" name="password" required>
+                    </div>
+                    <div class="loginLink">
+                        <p id="account">Already have an account?</p>
+                        <a id="loginLinkA" href="">Login</a>
+                    </div>
+                    <div class="getRegister">
+                        <button class="registerSubmitButton" type="submit">Register</button>
+                    </div>
+                </section>
+                <!-- created by Khushi-->
+            </section>
+        </section>
+    </section>
+    <!-- created by Khushi-->
+    <script src="Login.js"></script>
+</body>
+</html>

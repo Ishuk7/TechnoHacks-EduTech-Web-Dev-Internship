@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* created by Khushi */
+
+.montserrat{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.nunito{
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.bg{
+    background-image: url(Green\ Arrow\ BG.png);
+    background-attachment: fixed;
+}
+
+.heading{
+    padding-top: 1%;
+    display: flex;
+    justify-content: center;
+    font-size: 6rem;
+    font-family: 'Montserrat';
+}
+
+.heading02{
+    background: white;
+    border-radius: 90px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.heading02 p{
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.main{
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+}
+
+.main02{
+    width: 874px;
+    padding: 50px;
+    background: white;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+/* created by Khushi */
+
+.row{
+    font-size: 2rem;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+
+.row02{
+    display: flex;
+}
+
+.num{
+    padding-bottom: 50px;
+}
+
+.input01{
+    padding-right: 20px;
+}
+
+.inputText1{
+    font-family: 'Nunito';
+}
+
+.inputBox1{
+    width: 300px;
+    font-size: 1.2rem;
+    font-family: 'Nunito';
+}
+
+.row03{
+    display: flex;
+}
+
+.input02{
+    padding-right: 20px;
+}
+
+.inputText2{
+    font-family: 'Nunito';
+}
+
+.inputBox2{
+    width: 300px;
+    font-size: 1.2rem;
+    font-family: 'Nunito';
+}
+
+.numberInput{
+    display: flex;
+    justify-content: start;
+    font-size: 2rem;
+    font-family: 'Nunito';
+}
+/* created by Khushi */
+
+#numLabel{
+    padding-right: 20px;
+}
+
+.searchBox{
+    padding-left: 10px;
+    width: 551px;
+    font-size: 1.3rem;
+    font-family: 'Nunito';
+}
+
+.button02{
+    display: flex;
+    justify-content: start;
+    padding-left: 280px;
+    gap: 100px;
+}
+
+.convertB{
+    padding: 5px;
+    font-size: 2rem;
+    font-family: 'Nunito';
+}
+
+.resetB{
+    padding: 5px;
+    font-size: 2rem;
+    font-family: 'Nunito';
+}
+/* created by Khushi */
+.last{
+    padding-top: 5%;
+    display: flex;
+    justify-content: center;
+}
+
+.answer{
+    background-color: white;
+    width: 873px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    font-size: 2rem;
+    border-radius: 20px;
+    font-family: 'Nunito';
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+/* created by Khushi */
+.finalValue{
+    color: darkgreen;
+    font-size: 1.2;
+    font-family: 'Nunito';
+}

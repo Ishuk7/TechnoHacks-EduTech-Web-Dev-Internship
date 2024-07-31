@@ -1,0 +1,81 @@
+/* Created by Khushi */
+body{
+    background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
+    background-attachment: fixed;
+    margin:0;
+    font-family: 'Poppins', sans-serif; 
+}
+
+.box{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+#form{
+    width:400px;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    padding:30px;
+}
+/* Created by Khushi */
+h1{
+    text-align: center;
+    color: #ff0844;
+}
+
+#form button{
+    background-color: #fa8b6a;
+    color: rgb(255, 255, 255);
+    border: 1px solid #fa8b6a;
+    border-radius: 5px;
+    padding:10px;
+    margin:0px 0px;
+    cursor:pointer;
+    font-size:20px;
+    width:100%;
+}
+/* Created by Khushi */
+#form button:hover{
+    background-color: #ff0844;
+    border-color: #ff0844;
+    color: #ffb199;
+}
+
+#form button:focus{
+    background-color: #ff0844;
+    border-color: #ff0844;
+    color: #ffb199;
+}
+
+.content{
+    display:flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+/* Created by Khushi */
+.content input{
+    border-radius: 5px;
+    font-size:20px;
+    padding:10px;
+    border:1px solid rgb(34,193,195) ;
+}
+
+.content input:focus{
+    outline:0;
+}
+
+.content .error{
+    color:rgb(242, 18, 18);
+    font-size:16px;
+    margin-top: 5px;
+}
+/* Created by Khushi */
+.content.success input{
+    border-color: #0cc477;
+}
+
+.content.error input{
+    border-color:rgb(206, 67, 67);
+}
+/* Created by Khushi */
